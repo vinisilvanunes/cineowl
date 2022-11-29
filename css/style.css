@@ -1,0 +1,29 @@
+:root{
+    --corFundo: #333;
+    --corPrincipal: #F49D37;
+    --corTexto: #DDD;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+	flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+	background: var(--corFundo);
+	color: var(--corTexto);
+}
+
+body img{
+	height: 150px;
+	width: 200px;
+}
